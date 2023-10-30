@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: grey;
+    color: black;
+}
+
+.color {
+    color: blueviolet;
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    gap: 16px;
+    background-color: white;
+    padding: 32px;
+    margin-top: 32px;
+    border-radius: 8px;
+}
+
+.main-title {
+    margin: 32px 0;
+}
+
+.title {
+    margin: 16px 0;
+}
+
+body:last-child {
+    margin-bottom: 32px;
+}
